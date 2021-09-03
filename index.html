@@ -13,7 +13,6 @@
     
 </head>
 <body>
-
     <header>
         <h1>Özer's Todo List</h1>
     </header>
@@ -22,19 +21,17 @@
         <button class="todo-button" type="submit">
             <i class="fas fa-plus-square" ></i>
         </button>
+        <div class="select">
+            <select name="todos" class="filter-todo" >
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
     </form>
     <div class="todo-container">
-        <ul class="todo-list">
-            <div class="todo">
-
-            </div>
-        </ul>
+        <ul class="todo-list"></ul>
     </div>
-
-
-
-
-
 
 
     <script src="app.js" ></script>
