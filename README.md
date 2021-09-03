@@ -5,6 +5,7 @@ With this todo list, you are able to add and delete your tasks. And after that, 
 
 - [Todo List](https://ozerozturk.github.io/Todo-List/index.html)  
 
+![Todo List](/img/cover.PNG)
 
 
 
